@@ -1,0 +1,50 @@
+{
+  "name": "book-management-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "start": "nodemon --exec ts-node app.ts",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint --fix src/**/*.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "@types/sqlite3": "^5.1.0",
+    "class-validator": "^0.14.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.1.7",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.7.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/morgan": "^1.9.9",
+    "@types/supertest": "^6.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^9.21.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.6"
+  }
+}
