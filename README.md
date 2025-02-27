@@ -14,8 +14,8 @@ The project consists of:
 
 To run this project locally, please refer to:
 
-1. [Frontend README](/frontend/README.md) - For setting up and running the web application
-2. [Backend README](/backend/README.md) - For setting up the API server and database
+1. [Frontend README](https://github.com/work-talhamughal/book-store/tree/main/book-management-frontend#readme) - For setting up and running the web application
+2. [Backend README](https://github.com/work-talhamughal/book-store/tree/main/book-management-backend#readme) - For setting up the API server and database
 
 ## Prerequisites
 
